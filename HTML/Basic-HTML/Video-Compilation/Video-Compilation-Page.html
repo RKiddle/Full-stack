@@ -1,14 +1,3 @@
-<!-- 
-You should have a main element as the only child of the body element.
-You should have an h1 element with the topic of your page.
-You should have a paragraph introducing the topic of your page below your h1 element.
-You should have three section elements below your first paragraph.
-Each section should contain an h2 element, a paragraph, and an iframe element, in this order.
-The three iframe elements should have a src attribute set to a valid video.
-Each iframe element should also have a title attribute to describe the embedded content, and a height attribute and a width attribute to set the element to a proper size.
--->
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,7 +7,28 @@ Each iframe element should also have a title attribute to describe the embedded 
 </head>
 
 <body>
+    <main>
+        <h1>Video Compilation Page</h1>
+        <p>Welcome to the Video Compilation Page! Here you will find a collection of interesting videos on various topics.</p>
+        
+        <section>
+            <h2>Topic 1: Nature</h2>
+            <p>Explore the beauty of nature through this amazing video.</p>
+            <iframe src="https://www.example.com/nature-video" title="Nature Video" width="560" height="315"></iframe>
+        </section>
 
+        <section>
+            <h2>Topic 2: Technology</h2>
+            <p>Learn about the latest advancements in technology.</p>
+            <iframe src="https://www.example.com/technology-video" title="Technology Video" width="560" height="315"></iframe>
+        </section>
+
+        <section>
+            <h2>Topic 3: Space</h2>
+            <p>Discover the wonders of space and the universe.</p>
+            <iframe src="https://www.example.com/space-video" title="Space Video" width="560" height="315"></iframe>
+        </section>
+    </main>
 </body>
 
 </html>
