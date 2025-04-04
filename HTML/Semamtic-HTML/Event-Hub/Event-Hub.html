@@ -1,0 +1,85 @@
+<!---
+USER STORIES:
+
+You should have a header element.
+
+Inside the header element, you should have an h1 element that contains the text Event Hub, and a nav element.
+
+Inside the nav element, you should have an unordered list of two items containing links to different sections of the page. The first item should have the text Upcoming Events, and the second item should have the text Past Events.
+
+Each link should be represented by an a element with an href attribute that links to the corresponding section of the page, #upcoming-events and #past-events respectively.
+
+You should have a main element that contains the different sections of the page.
+
+Inside the main element, you should have two section elements.
+
+The first section element should have an id attribute with the value upcoming-events
+
+Inside the #upcoming-events section, you should have:
+
+An h2 element with the text Upcoming Events.
+Two article elements. Each article should represent an event, and it should have :
+An h3 element for the event title.
+A p element for the event description. You can add a date at the bottom if you like.
+The second section element should have an id attribute with the value past-events.
+
+Inside the #past-events section, you should have:
+
+An h2 element with the text Past Events.
+Two article elements. Each article element should represent a past event, and it should have:
+An h3 element for the event title,
+A p element for the event description. You can add a date at the bottom if you like.
+An image element with the src attribute pointing to an image file and the alt attribute with a description of the image.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Event Hub</title>
+</head>
+
+<body>
+    <header>
+        <h1>Event Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#upcoming-events">Upcoming Events</a></li>
+                <li><a href="#past-events">Past Events</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="upcoming-events">
+            <h2>Upcoming Events</h2>
+            <article>
+                <h3>The Celestial Tea Ceremony</h3>
+                <p>GA mystical and ancient ritual where participants gather beneath a canopy of stars to partake in a meditative tea ceremony. Guided by a wise elder, attendees will learn the art of slow, mindful sipping while gazing at the constellations. The ceremony culminates in a collective wish whispered into the night sky, carried aloft by the gentle breeze.</p>
+            </article>
+            <article>
+                <h3>The Whispering Walls Festival</h3>
+                <p>A unique celebration held within an ancient labyrinth of interconnected caves. Participants are invited to leave behind their worries and troubles by whispering their concerns into the walls of the labyrinth. It is believed that the echoing whispers are absorbed by the earth, offering solace and a sense of release. The festival culminates in a communal sound bath, where the collective whispers are transformed into a soothing and harmonizing soundscape.</p>
+            </article>
+        </section>
+
+        <section id="past-events">
+            <h2>Past Events</h2>
+            <article>
+                <h3>The Night Sky Storytelling Festival</h3>
+                <p>Immerse yourself in the magic of storytelling under the stars at this enchanting festival. Gather around a bonfire on a secluded beach as local elders and gifted narrators weave tales of ancient legends, folklore, and fantastical journeys. The flickering flames cast dancing shadows, adding to the mystical atmosphere as you lose yourself in the captivating narratives.
+                </p>
+                <img src="event3.jpg" alt="A group of people gathered around a bonfire on a beach at night, with the Milky Way visible in the sky above.">
+            </article>
+            <article>
+                <h3>The Echoing Caves Festival</h3>
+                <p>Embark on a journey of self-discovery and introspection at this unique festival held within a network of ancient caves. Participants are invited to explore the labyrinthine passages, leaving behind their worries and troubles by whispering them into the echoing walls. It is believed that the caves absorb negative energy, offering a sense of release and renewal. The festival culminates in a communal sound bath, where the collective whispers are transformed into a soothing and harmonizing soundscape.</p>
+                <img src="event4.jpg" alt="A group of people exploring a network of ancient caves, with flickering torches lighting their way. The walls are adorned with ancient carvings and the atmosphere is filled with a sense of mystery.">
+            </article>
+        </section>
+
+</body>
+
+</html>
